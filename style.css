@@ -42,3 +42,36 @@ section{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+#donate{
+    background-color: #F5E7DE;
+}
+.donate-today{
+    text-align: center;
+    padding: 0 15%;
+}
+.amount{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.amount li{
+    text-decoration: none;
+    float: left;
+    padding-left: 40px;
+    background-color: #FFEEEE;
+    margin-left: 25px;
+    padding: 30px;
+}
+.donate-amount{
+    border-style: ridge;
+    border-width: 2px ;
+    border-color: #FF5959;
+    color: #FF5959;
+}
+h6{
+    color: #575656;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
