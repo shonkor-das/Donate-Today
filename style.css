@@ -2,11 +2,18 @@ body{
     margin: 0;
     padding: 0;
     font-size: 20px;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 h1{
     font-size: 45px;
+    font-weight: 700;
     
+}
+h2{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
 }
 span{
     color: #FCC424;
@@ -84,6 +91,7 @@ h6{
     width: 28%;
     border-radius: 15px;
     margin: 10px;
+    
 }
 .our-donate img{
     float: left;
@@ -98,3 +106,63 @@ h6{
 .education{
     background-color: #f89191;
 }
+.flexible-container{
+    display: flex;
+    margin-bottom: 5%;                 
+}
+.half-width {
+    width: 30%;
+    padding-left: 10%;
+    margin: 0 0%;
+    margin-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.Search-bar{
+    padding: 8% 0px;
+    background-color: #f89191;
+    margin: 0px 20%;
+}
+.Search-bar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    background: #D9D9D9;
+    margin-left: 25%;
+    border-radius: 5px 0px 0px 5px;
+  }
+.Search-bar button {
+    float: left;
+    width: 18%;
+    padding: 10px;
+    background: #868813;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+  }
+  footer{
+    background-color: #0B0D17;
+    padding: 2% 0;
+    text-align: center;
+  }
+  footer h3{
+    color: #FF5959;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+  }
+  footer p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
