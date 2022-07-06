@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 22px;
+    font-size: 20px;
 	font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -11,8 +11,9 @@ h1{
 span{
     color: #FCC424;
 }
-section{
-    padding-top: 50px;
+.section-padding{
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .btn {
     font-size: 20px;
@@ -25,7 +26,7 @@ section{
     display: inline-block;
 }
 .donate{
-    width: 50%;
+    width: 60%;
     padding: 20%;
     text-align: center;
     margin-top: 0;
@@ -42,12 +43,13 @@ section{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-#donate{
-    background-color: #F5E7DE;
-}
 .donate-today{
     text-align: center;
     padding: 0 15%;
+}
+.donate-today p{
+    padding: 0 15%;
+    color: #707070;
 }
 .amount{
     list-style: none;
@@ -74,4 +76,25 @@ h6{
 .underline{
     text-decoration: underline;
     text-underline-offset: 15px;
+}
+.our-donate{
+    display: flex;
+    display: inline-block;
+    padding: 0 10px;
+    width: 28%;
+    border-radius: 15px;
+    margin: 10px;
+}
+.our-donate img{
+    float: left;
+}
+
+.food{
+    background-color: #FFF4D6;
+}
+.family{
+    background-color: #EDF5F6;
+}
+.education{
+    background-color: #f89191;
 }
