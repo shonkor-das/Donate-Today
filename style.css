@@ -69,6 +69,8 @@ span{
     background-color: #FFEEEE;
     margin-left: 25px;
     padding: 30px;
+    font-weight: 700;
+    font-size: 27px;
 }
 .donate-amount{
     border-style: ridge;
